@@ -4,6 +4,7 @@ RUN apt update
 RUN apt install -y vim
 RUN apt install -y git
 RUN apt install -y tmux
+RUN apt install -y python
 
 COPY skel /root
 COPY .ssh /root/.ssh
