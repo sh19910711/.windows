@@ -3,6 +3,7 @@ FROM ubuntu:16.04
 RUN apt update
 RUN apt install -y vim
 RUN apt install -y git
+RUN apt install -y tmux
 
 COPY skel /root
 COPY .ssh /root/.ssh
