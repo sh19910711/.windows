@@ -1,0 +1,12 @@
+version: '2'
+services:
+  dev:
+    build: .
+    entrypoint: /bin/bash
+    ports:
+      - '8080'
+    volumes:
+      - /c/workspace:/wrk
+    working_dir: /wrk
+    stdin_open: true
+    tty: true
