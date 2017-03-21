@@ -8,6 +8,5 @@ RUN apt install -y python
 RUN apt install -y php
 
 COPY skel /root
-COPY .ssh /root/.ssh
 RUN chmod -R go-rwx ~/.ssh
 CMD php -S localhost:8888
