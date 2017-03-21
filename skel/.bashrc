@@ -7,3 +7,5 @@ shopt -s checkwinsize
 
 TERM=xterm-256color
 color_prompt=yes
+
+source /etc/bash_completion

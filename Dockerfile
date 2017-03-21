@@ -6,6 +6,7 @@ RUN apt install -y git
 RUN apt install -y tmux
 RUN apt install -y python
 RUN apt install -y php
+RUN apt install -y bash-completion
 
 COPY skel /root
 RUN chmod -R go-rwx ~/.ssh
