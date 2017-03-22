@@ -7,6 +7,7 @@ RUN apt install -y tmux
 RUN apt install -y python
 RUN apt install -y php
 RUN apt install -y bash-completion
+RUN apt install -y curl
 
 COPY skel /root
 RUN chmod -R go-rwx ~/.ssh
