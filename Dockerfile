@@ -15,6 +15,9 @@ RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources
 RUN apt install -y apt-transport-https
 RUN apt update
 RUN apt install -y yarn
+RUN apt install -y npm
+RUN npm install -g n
+RUN n stable
 
 COPY skel /root
 RUN chmod -R go-rwx ~/.ssh
