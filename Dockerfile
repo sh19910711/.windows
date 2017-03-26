@@ -20,7 +20,7 @@ RUN npm install -g n
 RUN n stable
 
 # phantomjs
-RUN apt install libfontconfig1-dev
+RUN apt install -y libfontconfig1-dev
 
 COPY skel /root
 RUN chmod -R go-rwx ~/.ssh
