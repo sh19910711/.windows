@@ -2,3 +2,4 @@
 !.ssh/config
 .viminfo
 .bash_history
+node_modules/
