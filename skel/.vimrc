@@ -2,6 +2,7 @@ set nocompatible
 colorscheme solarized
 set expandtab
 set tabstop=2
+set shiftwidth=2
 set autoindent
 
 set runtimepath+=~/.vim/bundle/nerdtree
