@@ -19,6 +19,9 @@ RUN apt install -y npm
 RUN npm install -g n
 RUN n stable
 
+# phantomjs
+RUN apt install libfontconfig1-dev
+
 COPY skel /root
 RUN chmod -R go-rwx ~/.ssh
 CMD php -S localhost:8888
