@@ -1,3 +1,5 @@
 [user]
 	email = sh19910711@gmail.com
 	name = Hiroyuki Sano
+[core]
+	excludesfile = ~/.gitignore
