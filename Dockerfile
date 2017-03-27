@@ -23,5 +23,7 @@ RUN n stable
 RUN apt install -y libfontconfig1-dev
 
 COPY skel /root
+RUN cd ~/.vim/bundle/vimproc && make
+
 RUN chmod -R go-rwx ~/.ssh
 CMD php -S localhost:8888

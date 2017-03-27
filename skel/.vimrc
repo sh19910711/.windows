@@ -8,3 +8,6 @@ set autoindent
 set runtimepath+=~/.vim/bundle/nerdtree
 let NERDTreeDirArrowExpandable = ">"
 let NERDTreeDirArrowCollapsible = "-"
+
+set runtimepath+=~/.vim/bundle/vimproc
+set runtimepath+=~/.vim/bundle/vimshell

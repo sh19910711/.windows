@@ -1,3 +1,9 @@
 [submodule "skel/.vim/bundle/nerdtree"]
 	path = skel/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "skel/.vim/bundle/vimshell"]
+	path = skel/.vim/bundle/vimshell
+	url = https://github.com/Shougo/vimshell.vim
+[submodule "skel/.vim/bundle/vimproc"]
+	path = skel/.vim/bundle/vimproc
+	url = https://github.com/Shougo/vimproc.vim
