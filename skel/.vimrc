@@ -4,6 +4,7 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 set autoindent
+set hlsearch
 
 set runtimepath+=~/.vim/bundle/nerdtree
 let NERDTreeDirArrowExpandable = ">"
